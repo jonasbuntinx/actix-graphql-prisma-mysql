@@ -1,0 +1,1 @@
+# actix-graphql-prisma-mysql
