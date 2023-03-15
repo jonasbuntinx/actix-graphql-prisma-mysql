@@ -1,6 +1,6 @@
 use actix_web::{get, post, web, App, HttpResponse, HttpServer, Responder};
-use serde::Deserialize;
 use dotenv::dotenv;
+use serde::Deserialize;
 
 mod prisma;
 
@@ -69,7 +69,6 @@ async fn create_post(
 async fn hello() -> impl Responder {
     HttpResponse::Ok().body("Hello world!")
 }
-
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
