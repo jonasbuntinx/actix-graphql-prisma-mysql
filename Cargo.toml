@@ -11,3 +11,5 @@ prisma-client-rust = { git = "https://github.com/Brendonovich/prisma-client-rust
 actix-web = "4"
 serde = { version = "1.0.156", features = ["derive"] }
 dotenv = "0.15.0"
+async-graphql = "5.0.6"
+async-graphql-actix-web = "5.0.6"
